@@ -3,6 +3,22 @@
 <head>
   <title>WEB - CSS</title>
   <meta charset="utf-8">
+  <style>
+    #active {
+      color: red;
+    }
+    .saw{
+      color: gray;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 60px;
+      text-align: center
+    }
+  </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1GNPB8FPVK"></script>
   <script>
@@ -14,12 +30,20 @@
 </script>
 </head>
 <body>
-  <h1><a href="index.html">WEB</a></h1>
+  <h1><a href="index.html">WEB</font></a></h1>
   <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
+    <li><a href="1.html" class="saw">HTML</font></a></li>
+    <li><a href="2.html" class="saw" id="active">CSS</font></a></li>
+    <li><a href="3.html" class="saw">JavaScript</font></a></li>
   </ol>
+  <!--
+  <h1><a href="index.html"><font color="red">WEB</font></a></h1>
+  <ol>
+    <li><a href="1.html"><font color="red">HTML</font></a></li>
+    <li><a href="2.html"><font color="red">CSS</font></a></li>
+    <li><a href="3.html"><font color="red">JavaScript</font></a></li>
+  </ol>
+-->
   <h2>CSS이란 무엇인가?</h2>
   <p>Cascading Style SheetsorCascading Style Sheets (CSS) are languages that described how markup languages are actuallydisplayed in [1], HTML, and XHTML,and can also be used in XML. It is the standard for W3Cand hashigh degrees of freedom when defining layouts and styles.
 
